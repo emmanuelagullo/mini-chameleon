@@ -1,18 +1,18 @@
-;; https://guix.bordeaux.inria.fr/eval/8999995
-;; 2025-10-06 02:42:50
+;; https://guix.bordeaux.inria.fr/eval/9004109
+;; 2025-10-09 11:51:42
 
 (list (channel
         (name 'guix-hpc-non-free)
         (url "https://gitlab.inria.fr/guix-hpc/guix-hpc-non-free.git")
         (branch "master")
         (commit
-          "56b927455a37a600e6bec4413d70d7f6b5959d13"))
+          "8c4260a216e9b4a4d9647ecaaef4341308273761"))
       (channel
         (name 'guix)
         (url "https://git.guix.gnu.org/guix.git")
         (branch "master")
         (commit
-          "7e2029f7e760bad4d48059143ae8c3ec76671e13")
+          "925d10cc642d60c3f67a8423b4636da3c618e983")
         (introduction
           (make-channel-introduction
             "9edb3f66fd807b096b48283debdcddccfea34bad"
@@ -23,13 +23,13 @@
         (url "https://gitlab.inria.fr/guix-hpc/guix-hpc.git")
         (branch "master")
         (commit
-          "c32f48de84ab8be52aa483da3763383470b4ea64"))
+          "32c313f2262c529bec26543d63e3e931b2d18385"))
       (channel
         (name 'guix-science-nonfree)
         (url "https://codeberg.org/guix-science/guix-science-nonfree.git")
         (branch "master")
         (commit
-          "c6b01b7e9e163822123b68541b7cde81d8a14cd4")
+          "baee36c468c8b23cff98ae90d6598291547b869f")
         (introduction
           (make-channel-introduction
             "58661b110325fd5d9b40e6f0177cc486a615817e"
@@ -40,7 +40,7 @@
         (url "https://codeberg.org/guix-science/guix-science.git")
         (branch "master")
         (commit
-          "d40aa0576bc06744752d3aa811e042cba4f5ae64")
+          "d724d9ecedb4507bf157682b30914ac0fa99d025")
         (introduction
           (make-channel-introduction
             "b1fe5aaff3ab48e798a4cce02f0212bc91f423dc"
